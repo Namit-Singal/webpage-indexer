@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Webpage Indexer</title>
+  <style>
+    body {
+      width: 300px;
+      height: 250px;
+      padding: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 8px 16px;
+      margin: 10px 0;
+      cursor: pointer;
+    }
+    .active {
+      background-color: #4CAF50;
+      color: white;
+    }
+    #authButton {
+      display: none;
+      background-color: #FF4444;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Webpage Indexer</h1>
+  <button id="toggleButton">Index all pages</button>
+  <button id="indexCurrentButton">Index this page</button>
+  <button id="authButton">Continue After Auth</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
