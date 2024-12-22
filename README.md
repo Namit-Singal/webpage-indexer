@@ -48,4 +48,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-[MIT](LICENSE)
+This project is licensed under the [GNU General Public License v3.0](LICENSE) - see the LICENSE file for details.
